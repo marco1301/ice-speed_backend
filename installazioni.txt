@@ -1,0 +1,90 @@
+sudo apt-get update - upgrade
+sudo apt-get install nginx php7.0-fpm python-pip libssl-dev
+
+## Google APIs Client Library
+sudo pip install google-api-python-client
+
+## Verify Crypto library
+python -c "from oauth2client import crypt"
+
+## Python wrapper for the OpenSSL library
+sudo pip install 'pyOpenSSL>=0.11'
+
+## Earth Engine Python API
+sudo pip install earthengine-api
+	earthengine authenticate
+
+## Setting Up Earth Engine APIs Authentication Credentials
+earthengine authenticate
+	
+
+## Cloud Storage Client Libraries
+sudo pip install google-cloud-storage
+gcloud auth login
+
+sudo apt-get install python-gdal
+
+sudo apt-get install python-opencv
+
+## Google Cloud Client Library (per PHP)
+sudo apt-get install composer
+composer require google/cloud
+
+## Pyploy
+sudo pip install pyplot
+
+
+
+
+
+=================================================================================
+MAC
+=================================================================================
+
+Installazioni:
+
+	- Homebrew
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+	- PIP
+sudo easy_install pip
+
+	- Google API Python Client
+sudo -H pip install --ignore-installed six
+sudo pip install google-api-python-client
+	
+	- pyCrypto
+sudo pip install pyCrypto
+
+	- OpenSSL
+brew install openssl
+
+	- pyOpenSSL
+sudo pip install 'pyOpenSSL>=0.11'
+
+	- Earth Engine API
+sudo pip install earthengine-api
+
+	- PIP
+sudo pip install Pillow
+
+	- QGIS-2.18.2-1.dmg  -->  1 GDAL Complete.pkg
+	
+	- Plotly
+sudo pip install plotly
+
+	- boto
+sudo pip install boto
+
+	- OpenCV/cv2
+brew tap homebrew/science
+brew info opencv
+brew install opencv
+export PYTHONPATH=/usr/local/lib/python2.7/site-packages
+
+	- GoogleAppEngineCloudStorageClient
+sudo pip install GoogleAppEngineCloudStorageClient
+
+	- Google app engine
+gcloud components install app-engine-python
+gcloud components install app-engine-python-extras
